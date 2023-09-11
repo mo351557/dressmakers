@@ -1,0 +1,402 @@
+body {
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+a {
+	transition: all 0.3s ease;
+}
+.weight-500 {
+	font-weight: 500;
+}
+.navbar-nav {
+	font-weight: 600;
+}
+.btn {
+	position: relative;
+	padding: 13.5px 36px;
+	font-weight: 700;
+	border-radius:0;
+	font-size: 13px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+.btn-primary {
+background-color:#0d4a98;
+}
+.process-bg {
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/3182763/pexels-photo-3182763.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+	background-size: cover;
+	background-position: center;
+}
+.satisfication-bg {
+	background-color: bisque;
+}
+.fnt-sz-20 {
+	font-size: 20px;
+}
+.mrg-btm-2 {
+	margin-bottom: 2rem;
+}
+
+.contact-bg {
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(https://annedece.sirv.com/Images/banner-img-one.jpg);
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+}
+/* h1,h2,h3,h4,h5,h6{
+font-family: 'Libre Caslon Display', serif;	
+} */
+.ww img{
+width:70px;
+margin-bottom:30px;	
+}
+.carousel-caption h5{
+font-size:90px;	
+}
+.carousel-caption p{
+font-size:24px;	
+}
+.carousel-caption {
+    position: absolute;
+    right:5%;
+    top:40%;
+    left:15%;
+    z-index: 10;
+    padding-top:0;
+    padding-bottom:0;
+    text-align:left;
+	color:#222;
+}
+.text-white {
+	color:#fff !important;
+}
+input{
+border-radius:0 !important;		
+}
+button{
+border-radius:0 !important;		
+}
+::placeholder{
+font-size:14px;	
+}
+button.btn{
+font-size:15px !important;	
+}	
+.active{
+color:#0d4a98 !important;	
+}
+@media(max-width:960px){
+.carousel-caption h5{
+font-size:40px;	
+}	
+.carousel-caption p{
+display:none;
+}
+}
+
+.max-wdt {
+	width: max-content;
+}
+/* Dress Types */
+ 
+  
+
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+.contact .info-box {
+	color: #444444;
+	text-align: center;
+	box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+	padding: 20px 0 30px 0;
+	background: #fff;
+  }
+
+  .pb-55 {
+	padding-bottom: 55px !important;
+  }
+
+  .pb-75 {
+	padding-bottom: 75px !important;
+  }
+  
+  .contact .info-box i {
+	font-size: 32px;
+	color: #fdc134;
+	border-radius: 50%;
+	padding: 8px;
+	border: 2px dotted #fff7e5;
+  }
+  
+  .contact .info-box h3 {
+	font-size: 20px;
+	color: #777777;
+	font-weight: 700;
+	margin: 10px 0;
+  }
+  
+  .contact .info-box p {
+	padding: 0;
+	line-height: 24px;
+	font-size: 14px;
+	margin-bottom: 0;
+  }
+  
+  .contact .php-email-form {
+	box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+	padding: 30px;
+	background: #fff;
+  }
+  
+  .contact .php-email-form .error-message {
+	display: none;
+	color: #fff;
+	background: #ed3c0d;
+	text-align: left;
+	padding: 15px;
+	font-weight: 600;
+  }
+  
+  .contact .php-email-form .error-message br+br {
+	margin-top: 25px;
+  }
+  
+  .contact .php-email-form .sent-message {
+	display: none;
+	color: #fff;
+	background: #18d26e;
+	text-align: center;
+	padding: 15px;
+	font-weight: 600;
+  }
+  
+  .contact .php-email-form .loading {
+	display: none;
+	background: #fff;
+	text-align: center;
+	padding: 15px;
+  }
+  
+  .contact .php-email-form .loading:before {
+	content: "";
+	display: inline-block;
+	border-radius: 50%;
+	width: 24px;
+	height: 24px;
+	margin: 0 10px -6px 0;
+	border: 3px solid #18d26e;
+	border-top-color: #eee;
+	animation: animate-loading 1s linear infinite;
+  }
+  
+  .contact .php-email-form input,
+  .contact .php-email-form textarea {
+	border-radius: 0;
+	box-shadow: none;
+	font-size: 14px;
+  }
+  
+  .contact .php-email-form input::focus,
+  .contact .php-email-form textarea::focus {
+	background-color: #fdc134;
+  }
+  
+  .contact .php-email-form input {
+	padding: 10px 15px;
+  }
+  
+  .contact .php-email-form textarea {
+	padding: 12px 15px;
+  }
+  
+  .contact .php-email-form button[type=submit] {
+	background: #fdc134;
+	border: 0;
+	padding: 10px 24px;
+	color: #fff;
+	transition: 0.4s;
+  }
+  
+  .contact .php-email-form button[type=submit]:hover {
+	background: #fdd067;
+  }
+
+  #toastBox{
+	/* position: absolute; */
+	bottom: 30px;
+	right: 30px;
+	display: flex;
+	align-items: flex-end;
+	flex-direction: column;
+	overflow: hidden;
+	padding: 20px;
+  }
+
+  .toast123{
+	width: 400px;
+	height: 80px;
+	background: #fff;
+	font-weight: 500;
+	margin: 15px 0;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+	display: flex;
+	align-items: center;
+	/* position: relative; */
+	transform: translateX(100%);
+	animation: moveleft	0.5s linear forwards;
+	top: 50px;
+    position: fixed;
+  }
+  @keyframes moveleft {
+	100%{
+		transform: translateX(0);
+	}
+  }
+
+  .toast123 i{
+	margin: 0 20px;
+	font-size: 35px;
+	color: green;
+  }
+
+  .toast123.error i{
+	color: red;
+  }
+  .toast123.error {
+	height: 100px;
+  }
+
+  .toast123::after{
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 5px;
+	background: green;
+	animation: anim 5s linear forwards;
+  }
+  @keyframes anim {
+	100%{
+		width: 0;
+	}
+  }
+
+
+  .toast123.error::after{
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 5px;
+	background: red;
+	animation: anim 5s linear forwards;
+  }
+  @keyframes anim {
+	100%{
+		width: 0;
+	}
+  }
+
+  .section-bg {
+    background: linear-gradient(180deg, #f2f6fa 0%, #fff 100%);
+	padding-top: 25px;
+	padding-bottom: 20px;
+  }
+  
+  @keyframes animate-loading {
+	0% {
+	  transform: rotate(0deg);
+	}
+  
+	100% {
+	  transform: rotate(360deg);
+	}
+  }
+  
+
+
+
+
+  /* Extras */
+
+  .image-section {
+	position: relative;
+	width: 100%;
+	height: 0;
+	padding-top: 100%; /* Aspect ratio 1:1 (Square) */
+	overflow: hidden;
+}
+
+.image-section img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover; /* Ensure the image covers the entire container */
+	transition: transform 0.3s ease;
+}
+
+.image-section:hover img {
+	transform: scale(1.1); /* Zoom in effect on hover */
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.7);
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+	transition: opacity 0.3s ease;
+}
+
+.image-section:hover .overlay {
+	opacity: 1; /* Show overlay on hover */
+}
+
+.image-section:hover .service_heading {
+	display: none;
+}
+
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  }
+
+.service_section_img {
+	opacity: 0.5;
+}
+.hide {
+	display: none;
+}
+.myDIV:hover .hide {
+	display: block;
+	color: white;
+	transform: translate(-50%, -50%);
+  }
+
+.myDIV:hover  .service_heading{
+	display: none;
+	transform: translate(-50%, -50%);
+}
+.service_heading {
+	color: white;
+}
+/* .service_section_img:hover {
+	opacity: 1;
+} */
+
+.pt-2r {
+	padding-top: 2rem;
+}
